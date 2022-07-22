@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Your favourite music is here</title>
+        <link rel="stylesheet" href="spotify.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS-No Copyright sounds</h1>
+             <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="covers/cover1.jpg" alt="1">
+                    <span class="songname">Bhula dena</span>
+                    <span class="songlistplay"><span class="timestamp">04:00<i id="1" class="songitemplay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover2.jpg" alt="2">
+                    <span class="songname">Gali Gali</span>
+                    <span class="songlistplay"><span class="timestamp">02:54<i id="2" class="songitemplay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover3.jpg" alt="3">
+                    <span class="songname">happy birthday</span>
+                    <span class="songlistplay"><span class="timestamp">02:42<i id="3" class="songitemplay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover4.jpg" alt="4">
+                    <span class="songname">Milne hai muhjse aayi</span>
+                    <span class="songlistplay"><span class="timestamp">04:55<i id="4" class="songitemplay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover5.jpg" alt="5">
+                    <span class="songname">Naina</span>
+                    <span class="songlistplay"><span class="timestamp">03:40<i id="5" class="songitemplay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover6.jpg" alt="6">
+                    <span class="songname">Roke na Ruke</span>
+                    <span class="songlistplay"><span class="timestamp">04:38<i id="6" class="songitemplay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover7.jpg" alt="7">
+                    <span class="songname">Saat samunder paar</span>
+                    <span class="songlistplay"><span class="timestamp">06:38<i id="7" class="songitemplay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover8.jpg" alt="8">
+                    <span class="songname">Same Beef</span>
+                    <span class="songlistplay"><span class="timestamp">04:50<i id="8" class="songitemplay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover9.jpg" alt="9">
+                    <span class="songname">Sun raha hai na</span>
+                    <span class="songlistplay"><span class="timestamp">06:30<i id="9" class="songitemplay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover10.jpg" alt="10">
+                    <span class="songname">Tum hi ho</span> 
+                    <span class="songlistplay"><span class="timestamp">04:42<i id="10" class="songitemplay fa-solid fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+         <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+         <div class="icons">
+             <i class="fa-solid fa-backward-step" id="previous"></i>
+             <i class="fa-solid fa-circle-play" id="masterPlay" ></i>
+             <i class="fa-solid fa-forward-step" id="forward"></i>
+         </div>
+         <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"><span id="mastersongname">Bhula dena</span>
+         </div>
+    </div>
+    <script src="https://kit.fontawesome.com/43f84ae24d.js" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
